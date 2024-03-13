@@ -1,0 +1,13 @@
+.header-login{
+    border: 1px solid green;
+    margin-left: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #729e2e;
+
+    &__title{
+        color: #ffffff;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+}

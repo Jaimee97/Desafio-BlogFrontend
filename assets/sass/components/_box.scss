@@ -1,0 +1,45 @@
+.categorias-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 20px;
+    height: 100px;
+
+    &__img{
+        width: 85px;
+        height: 74px;
+    }
+    
+    &__text{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        color: #ffffff;
+    }
+    
+    &--html{
+        background-color: #E93E30;
+    }
+    
+    &--js{
+        background: #F7E018;
+    }
+    
+    &--css{
+        background: #299ED5;
+    }
+    &--react{
+        background: #292C33;
+    }
+    
+    &--vue{
+        background: #67C770;
+    }
+    
+    &--bootstrap{
+        background: #563D7C;
+    }
+}
+

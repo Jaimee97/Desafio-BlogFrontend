@@ -1,0 +1,21 @@
+.suscribete{
+    max-width: 1280px;
+    margin: 40px auto;
+    background-color: #729e2e;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.container-suscribete{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+    &__title{
+        color: #fff;
+        margin-top: 0;
+    }
+
+}
+

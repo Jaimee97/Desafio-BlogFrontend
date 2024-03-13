@@ -1,0 +1,26 @@
+#section-populares{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.populares{
+    max-width: 53%;
+
+    &__title{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+    }
+}
+
+.container-populares{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 1rem;
+    justify-content: space-between;
+    max-width: 100%;
+}
